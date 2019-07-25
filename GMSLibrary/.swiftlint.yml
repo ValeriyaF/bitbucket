@@ -1,0 +1,8 @@
+included: # paths to include during linting. `--path` is ignored if present.
+  - GMSLibrary/Classes
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
+  - explicit_self
+

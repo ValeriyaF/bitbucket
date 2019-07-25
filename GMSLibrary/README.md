@@ -1,0 +1,41 @@
+# GMSLibrary
+
+This is a library to interact with the Genesys Mobile Service (GMS) callback and chat API. 
+
+## Requirements
+
+GMSLibrary depends on the following libraries: 
+
+ * [Alamofire](https://github.com/Alamofire/Alamofire)
+ * [Google Promises](https://github.com/google/promises)
+ * [GFayeSwift](https://github.com/ckpwong/GFayeSwift)
+
+In addition, the following libraries must be included in the target project for [Firebase Cloud Messaging](https://firebase.google.com/) 
+(FCM) support.  These libraries are not directly referenced in GMSLibrary.
+
+ * [Firebase/Core](https://github.com/firebase/firebase-ios-sdk)
+ * [Firebase/Messaging](https://github.com/firebase/firebase-ios-sdk)
+ 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+
+## Installation
+
+GMSLibrary is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'GMSLibrary'
+```
+
+Follow the latest instructions from [Google Firebase](https://firebase.google.com/) on how to install the Firebase libraries. 
+
+## Author
+
+Cindy Wong, cindy.wong@genesys.com
+
+## License
+
+GMSLibrary is available under the MIT license. See the LICENSE file for more info.
