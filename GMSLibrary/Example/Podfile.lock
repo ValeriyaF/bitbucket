@@ -42,10 +42,10 @@ PODS:
   - GFayeSwift (0.5.5):
     - Starscream (~> 3.1.0)
     - SwiftyJSON (~> 5.0.0)
-  - GMSLibrary (0.8.5):
+  - GMSLibrary (8.5.1.001):
     - Alamofire (~> 4.8.0)
     - GFayeSwift (~> 0.5.5)
-    - PromisesSwift
+    - PromisesSwift (~> 1.2.8)
   - GoogleAppMeasurement (6.0.4):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -122,7 +122,7 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 662b8108a09fe9ed01aafdedba100fde8536b0f6
   FirebaseMessaging: 6bb0bdaf64c55fef7a219b7bb1e94e94a0855ced
   GFayeSwift: 4529f0242a9b066a053b8b7c290343764ee0a101
-  GMSLibrary: fa39800ac1663638beb75858807742845ebdeb12
+  GMSLibrary: b22dd79350cdc32887d80d1cbdfce2a7d37b8432
   GoogleAppMeasurement: 183bd916af7f80deb67c01888368f1108d641832
   GoogleUtilities: d2b0e277a95962e09bb27f5cd42f5f0b6a506c7d
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
@@ -132,6 +132,6 @@ SPEC CHECKSUMS:
   Starscream: 08172b481e145289c4930cb567230fb55897cfa4
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: e9c16dc4981aab5585e4de5f68a6a0c8da7050c3
+PODFILE CHECKSUM: 2f999c7901c1e0416158488dddc87ae550831730
 
 COCOAPODS: 1.7.5
