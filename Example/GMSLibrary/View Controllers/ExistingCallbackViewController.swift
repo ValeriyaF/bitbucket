@@ -123,6 +123,7 @@ class ExistingCallbackViewController: UIViewController, UITableViewDelegate, UIT
             }))
             alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
+            return
         }
         let promise = callbackClient.queryCallback(on: .global(qos: .utility),
                                                    properties: ["_customer_number": userSettings.phoneNumber!])
