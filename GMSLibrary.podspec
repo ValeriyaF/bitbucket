@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        DESC
   s.license          = "MIT"
   s.author           = { "Cindy Wong" => "cindy.wong@genesys.com" }
-  s.source           = { :git => "https://bitbucket.org/genesysdevsfoundary/gms-sample-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://bitbucket.org/genesysdevfoundry/gms-sample-ios.git", :tag => s.version.to_s }
   s.requires_arc = true
   s.ios.deployment_target = "10.0"
   s.source_files = 'GMSLibrary/Classes/**/*.swift'
